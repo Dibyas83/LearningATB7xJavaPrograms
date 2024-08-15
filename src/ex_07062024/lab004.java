@@ -22,6 +22,6 @@ public class lab004 {
         System.out.println(grade);
         System.out.println(_123);
         System.out.println(age1+age);
-        System.out.println(age1+s3+age);
+        System.out.println(age1+s3+age+y+s3+age1+y);
     }
 }
