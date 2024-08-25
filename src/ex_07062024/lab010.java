@@ -10,7 +10,8 @@ public class lab010 {
         System.out.println(a);
         System.out.println(b);
         System.out.println(c++);
-        System.out.println(c);
+        System.out.println(c);//13
+        System.out.println(c++ + c); //13+14
         System.out.println(++c);
         System.out.println(a_post++);
         System.out.println(a_post);
