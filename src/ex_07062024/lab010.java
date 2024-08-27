@@ -15,6 +15,7 @@ public class lab010 {
         System.out.println(++c);
         System.out.println(a_post++);
         System.out.println(a_post);
+        //--a,a--
 
     }
 }
