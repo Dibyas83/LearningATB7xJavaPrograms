@@ -22,4 +22,7 @@ public class lab023 {
         sc.close();
 
     }
+
+
+
 }
