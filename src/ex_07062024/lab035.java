@@ -18,6 +18,14 @@ public class lab035 {
         for (int i=0;i<marks.length;i++) {
             System.out.println(i);//prints serial
             System.out.println(i +" -> "+ marks[i]);
+
+        }
+        for (int i=0;i< marks.length;i++) {
+            System.out.println(i + " ->" + marks[i] * 2);
+        }
+        String weekdays[]={"sunday","monday","tuesday","wednesday"};
+        for (int i=0;i< weekdays.length;i++){
+            System.out.println(weekdays[i]);
         }
 
     }
