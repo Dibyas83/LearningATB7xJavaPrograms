@@ -8,9 +8,9 @@ public class lab8518aug {
     public static void main(String[] args) {
         //collection(Interface)-list,set,queue,map(interfaces)
         //list-arraylist,linkedlist,stack,vector
-        List mylist = new ArrayList();//Dynamic dispatch
+       // List mylist = new ArrayList();//Dynamic dispatch
         ArrayList mylist2 = new ArrayList();//stored continuosly ,no size
-        Collection mylist3 = new ArrayList();
+        //Collection mylist3 = new ArrayList();
         mylist2.add("pramod");
         mylist2.add("pram");
         mylist2.add("proo");
@@ -26,16 +26,18 @@ public class lab8518aug {
         System.out.println(mylist2.get(2));
         String s1 = (String) mylist2.get(1);
         System.out.println(s1);
-        mylist2.clear();
-        System.out.println(mylist2);
-        System.out.println(mylist2.isEmpty());
+        //mylist2.clear();
+        //System.out.println(mylist2);
+        //System.out.println(mylist2.isEmpty());
 
         System.out.println("..........");
-
-        for (int i = 0; i < mylist2.size();i++){
+        for (int i = 0; i < mylist2.size(); i++) {
             System.out.println(mylist2.get(i));
+
         }
+
         System.out.println("........");
+        //enhanced for loop
         for (Object o: mylist2){
             System.out.println(o);
         }
