@@ -18,7 +18,11 @@ public class lab2 {
         //it peek(looking or searching)_pop(remove),push(insert),search as added function +vectoor functions
         //it is heterogenous
         System.out.println(s.peek());//last one
-        System.out.println(s.pop());//used in library,cannot remove from middle
+        s.pop();//remove
+        System.out.println(s.pop());//showing what is being removed
+        //used in library,cannot remove from middle
+        System.out.println(s);
+        System.out.println(s.search("pp"));
 
     }
 }
