@@ -1,8 +1,13 @@
 package Core_Java;
 
 import java.util.Scanner;//lab084,85,86
-public class lab015 {
+public class lab015boolscanner {
     public static void main(String[] args) {
+        boolean are_you_married = true;
+        boolean are_you_jobless = true;
+        System.out.println(are_you_married);
+
+
         boolean b=!true;
         if(b) {
             System.out.println("b is true");

@@ -1,7 +1,7 @@
 package Core_Java;
 
 //lab082,83
-public class lab014 {
+public class lab014ifelse {
     public static void main(String[] args) {
         // if,switch condition
         int age=13;

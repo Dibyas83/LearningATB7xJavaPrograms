@@ -2,7 +2,7 @@ package Core_Java;
 
 import java.util.Scanner;
 
-public class lab017 {
+public class lab017grading {
     public static void main(String[] args) {
         // grade calculator
         Scanner sc=new Scanner(System.in);
@@ -10,7 +10,7 @@ public class lab017 {
         int score= sc.nextInt();
 
            char grade='j';
-        if (score>=90 && score<=100){
+        if (score>=90 && score<100){
            grade='a';
         } else if (score>=80 && score<=89) {
             grade='b';
@@ -18,11 +18,11 @@ public class lab017 {
             grade='c';
         } else if (score>=40 && score<=59) {
             grade = 'd';
-        } else if (score>=0 && score<=39) {
+        } else if (score>0 && score<=39) {
             grade='f';
-        } else {
+        } else if(score<0 || score>100) {
 
-            System.out.println("god");
+            System.out.println("god like");
 
         }
         System.out.println("your grade is->"+grade);

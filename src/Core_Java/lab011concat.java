@@ -1,10 +1,16 @@
 package Core_Java;
 
-public class lab011 {
+public class lab011concat {
     public static void main(String[] args) {
-        String name="pramod";//in SCP
+        int t = 8;
+        int k = 9;
+        System.out.println(t+k);
+
+        String name ="pramod";//in SCP
         name="dutta";
         String nam ="amit";
+        System.out.println(name);
+        System.out.println(nam + name);
         String nam2=name.concat(nam);//new string or memory
         String name2=new String("pramod");//stored in heap
         String name3=new String("pramod");//stored in heap

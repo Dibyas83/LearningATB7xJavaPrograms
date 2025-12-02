@@ -1,12 +1,16 @@
 package Core_Java;
 
+import java.awt.*;
 import java.util.Scanner;
 
-public class lab016 {
+public class lab016elseif {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         System.out.println("enter the num1");
         int num1= sc.nextInt();
+
+        String ui = sc.next();
+        System.out.println();
 
         System.out.println("enter the num2");
         int num2= sc.nextInt();
@@ -16,7 +20,7 @@ public class lab016 {
         }else if(num2>num1) {
             System.out.println(num2);
         }else {
-            System.out.println("equal");
+            System.out.println(ui);
         }
 
 
